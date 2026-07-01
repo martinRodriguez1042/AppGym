@@ -1,5 +1,6 @@
 import express from 'express';
 import { cnnDb } from './data/cnnSequelize.js';
+import { GrupoMuscular, Musculo, Rutina, Ejercicio } from './models/index.js';
 
 const app = express();
 app.use(express.json());
